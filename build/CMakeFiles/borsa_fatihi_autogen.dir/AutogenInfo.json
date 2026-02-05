@@ -107,7 +107,39 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/cProjects/borsa_fatihi/src/circuit/Circuit.h",
+			"MU",
+			"CDKI5LLNEU/moc_Circuit.cpp",
+			null
+		],
+		[
+			"C:/cProjects/borsa_fatihi/src/entity/Entity.h",
+			"MU",
+			"GH2DYT6SNJ/moc_Entity.cpp",
+			null
+		],
+		[
+			"C:/cProjects/borsa_fatihi/src/entity/Node.h",
+			"MU",
+			"GH2DYT6SNJ/moc_Node.cpp",
+			null
+		],
+		[
+			"C:/cProjects/borsa_fatihi/src/system/PositionSystem.h",
+			"MU",
+			"IMGALCVROS/moc_PositionSystem.cpp",
+			null
+		],
+		[
+			"C:/cProjects/borsa_fatihi/src/system/ResistorSystem.h",
+			"MU",
+			"IMGALCVROS/moc_ResistorSystem.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/cProjects/borsa_fatihi/build/borsa_fatihi_autogen/include",
 	"INCLUDE_DIR_Debug" : "C:/cProjects/borsa_fatihi/build/borsa_fatihi_autogen/include_Debug",
@@ -236,7 +268,12 @@
 	"SETTINGS_FILE_Release" : "C:/cProjects/borsa_fatihi/build/CMakeFiles/borsa_fatihi_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
-		[ "C:/cProjects/borsa_fatihi/main.cpp", "MU", null ]
+		[ "C:/cProjects/borsa_fatihi/main.cpp", "MU", null ],
+		[ "C:/cProjects/borsa_fatihi/src/circuit/Circuit.cpp", "MU", null ],
+		[ "C:/cProjects/borsa_fatihi/src/entity/Entity.cpp", "MU", null ],
+		[ "C:/cProjects/borsa_fatihi/src/entity/Node.cpp", "MU", null ],
+		[ "C:/cProjects/borsa_fatihi/src/system/PositionSystem.cpp", "MU", null ],
+		[ "C:/cProjects/borsa_fatihi/src/system/ResistorSystem.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

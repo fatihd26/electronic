@@ -21,6 +21,13 @@ find_package(OpenGL REQUIRED)
 add_executable(borsa_fatihi 
 main.cpp
 
+src/entity/Entity.cpp
+src/entity/Node.cpp
+
+src/system/PositionSystem.cpp
+src/system/ResistorSystem.cpp
+
+src/circuit/Circuit.cpp
 
 )
 

@@ -1,0 +1,3 @@
+C:/cProjects/borsa_fatihi/build/CMakeFiles/borsa_fatihi.dir
+C:/cProjects/borsa_fatihi/build/CMakeFiles/ALL_BUILD.dir
+C:/cProjects/borsa_fatihi/build/CMakeFiles/ZERO_CHECK.dir

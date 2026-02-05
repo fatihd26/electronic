@@ -1,0 +1,10 @@
+^C:\CPROJECTS\BORSA_FATIHI\CMAKELISTS.TXT
+setlocal
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -SC:/cProjects/borsa_fatihi -BC:/cProjects/borsa_fatihi/build --check-stamp-file C:/cProjects/borsa_fatihi/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

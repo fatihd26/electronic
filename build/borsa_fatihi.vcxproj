@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D3AD99EB-BBB2-37AA-8412-DFA06F866713}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>borsa_fatihi</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\cProjects\borsa_fatihi\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">borsa_fatihi.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">borsa_fatihi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\cProjects\borsa_fatihi\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">borsa_fatihi.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">borsa_fatihi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\cProjects\borsa_fatihi\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">borsa_fatihi.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">borsa_fatihi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\cProjects\borsa_fatihi\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">borsa_fatihi.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">borsa_fatihi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/cpp_packages/vcpkg-master/installed/x64-windows/include" /external:I "C:/Users/fatih/anaconda3/Library/include/qt" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtWidgets" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/fatih/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_Debug;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_Debug;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target borsa_fatihi</Message>
+      <Command>setlocal
+cd C:\cProjects\borsa_fatihi\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -E cmake_autogen C:/cProjects/borsa_fatihi/build/CMakeFiles/borsa_fatihi_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/cpp_packages/vcpkg-master/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/cProjects/borsa_fatihi/build/Debug/borsa_fatihi.exe -installedDir C:/cpp_packages/vcpkg-master/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\cpp_packages\vcpkg-master\installed\x64-windows\debug\lib\glfw3dll.lib;C:\cpp_packages\vcpkg-master\installed\x64-windows\debug\lib\glad.lib;opengl32.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Widgets_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Network_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/cProjects/borsa_fatihi/build/Debug/borsa_fatihi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/cProjects/borsa_fatihi/build/Debug/borsa_fatihi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/cpp_packages/vcpkg-master/installed/x64-windows/include" /external:I "C:/Users/fatih/anaconda3/Library/include/qt" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtWidgets" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/fatih/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_Release;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_Release;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target borsa_fatihi</Message>
+      <Command>setlocal
+cd C:\cProjects\borsa_fatihi\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -E cmake_autogen C:/cProjects/borsa_fatihi/build/CMakeFiles/borsa_fatihi_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/cpp_packages/vcpkg-master/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/cProjects/borsa_fatihi/build/Release/borsa_fatihi.exe -installedDir C:/cpp_packages/vcpkg-master/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\cpp_packages\vcpkg-master\installed\x64-windows\lib\glfw3dll.lib;C:\cpp_packages\vcpkg-master\installed\x64-windows\lib\glad.lib;opengl32.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Widgets_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Network_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/cProjects/borsa_fatihi/build/Release/borsa_fatihi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/cProjects/borsa_fatihi/build/Release/borsa_fatihi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/cpp_packages/vcpkg-master/installed/x64-windows/include" /external:I "C:/Users/fatih/anaconda3/Library/include/qt" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtWidgets" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/fatih/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_MinSizeRel;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_MinSizeRel;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target borsa_fatihi</Message>
+      <Command>setlocal
+cd C:\cProjects\borsa_fatihi\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -E cmake_autogen C:/cProjects/borsa_fatihi/build/CMakeFiles/borsa_fatihi_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/cpp_packages/vcpkg-master/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/cProjects/borsa_fatihi/build/MinSizeRel/borsa_fatihi.exe -installedDir C:/cpp_packages/vcpkg-master/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\cpp_packages\vcpkg-master\installed\x64-windows\lib\glfw3dll.lib;C:\cpp_packages\vcpkg-master\installed\x64-windows\lib\glad.lib;opengl32.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Widgets_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Network_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/cProjects/borsa_fatihi/build/MinSizeRel/borsa_fatihi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/cProjects/borsa_fatihi/build/MinSizeRel/borsa_fatihi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/cpp_packages/vcpkg-master/installed/x64-windows/include" /external:I "C:/Users/fatih/anaconda3/Library/include/qt" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtWidgets" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtGui" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtCore" /external:I "C:/Users/fatih/anaconda3/Library/./mkspecs/win32-msvc" /external:I "C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_RelWithDebInfo;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\include_RelWithDebInfo;C:\cpp_packages\vcpkg-master\installed\x64-windows\include;C:\Users\fatih\anaconda3\Library\include\qt;C:\Users\fatih\anaconda3\Library\include\qt\QtWidgets;C:\Users\fatih\anaconda3\Library\include\qt\QtGui;C:\Users\fatih\anaconda3\Library\include\qt\QtANGLE;C:\Users\fatih\anaconda3\Library\include\qt\QtCore;C:\Users\fatih\anaconda3\Library\.\mkspecs\win32-msvc;C:\Users\fatih\anaconda3\Library\include\qt\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target borsa_fatihi</Message>
+      <Command>setlocal
+cd C:\cProjects\borsa_fatihi\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -E cmake_autogen C:/cProjects/borsa_fatihi/build/CMakeFiles/borsa_fatihi_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/cpp_packages/vcpkg-master/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/cProjects/borsa_fatihi/build/RelWithDebInfo/borsa_fatihi.exe -installedDir C:/cpp_packages/vcpkg-master/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\cpp_packages\vcpkg-master\installed\x64-windows\lib\glfw3dll.lib;C:\cpp_packages\vcpkg-master\installed\x64-windows\lib\glad.lib;opengl32.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Widgets_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Network_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Gui_conda.lib;C:\Users\fatih\anaconda3\Library\lib\Qt5Core_conda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/cProjects/borsa_fatihi/build/RelWithDebInfo/borsa_fatihi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/cProjects/borsa_fatihi/build/RelWithDebInfo/borsa_fatihi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\cProjects\borsa_fatihi\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/cProjects/borsa_fatihi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -SC:/cProjects/borsa_fatihi -BC:/cProjects/borsa_fatihi/build --check-stamp-file C:/cProjects/borsa_fatihi/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfig.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\cpp_packages\vcpkg-master\scripts\buildsystems\vcpkg.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindThreads.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\cProjects\borsa_fatihi\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/cProjects/borsa_fatihi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -SC:/cProjects/borsa_fatihi -BC:/cProjects/borsa_fatihi/build --check-stamp-file C:/cProjects/borsa_fatihi/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfig.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\cpp_packages\vcpkg-master\scripts\buildsystems\vcpkg.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindThreads.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\cProjects\borsa_fatihi\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/cProjects/borsa_fatihi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -SC:/cProjects/borsa_fatihi -BC:/cProjects/borsa_fatihi/build --check-stamp-file C:/cProjects/borsa_fatihi/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfig.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\cpp_packages\vcpkg-master\scripts\buildsystems\vcpkg.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindThreads.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\cProjects\borsa_fatihi\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/cProjects/borsa_fatihi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -SC:/cProjects/borsa_fatihi -BC:/cProjects/borsa_fatihi/build --check-stamp-file C:/cProjects/borsa_fatihi/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5Config.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QPdfPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\fatih\anaconda3\Library\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\cProjects\borsa_fatihi\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfig.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glad\gladTargets.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\cpp_packages\vcpkg-master\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\cpp_packages\vcpkg-master\scripts\buildsystems\vcpkg.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\FindThreads.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\otomasyon\mingw64\mingw64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\cProjects\borsa_fatihi\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\main.cpp" />
+    <ClCompile Include="C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\cProjects\borsa_fatihi\build\ZERO_CHECK.vcxproj">
+      <Project>{7DB9F140-B339-37C0-90C4-1E397444C89B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\CPROJECTS\BORSA_FATIHI\BUILD\CMAKEFILES\B77CCF85014B144C764C4328DE4A776F\GENERATE.STAMP.RULE
+setlocal
+C:\otomasyon\mingw64\mingw64\bin\cmake.exe -SC:/cProjects/borsa_fatihi -BC:/cProjects/borsa_fatihi/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/cProjects/borsa_fatihi/build/borsa_fatihi.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

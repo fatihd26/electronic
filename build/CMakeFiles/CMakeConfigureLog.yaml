@@ -26,7 +26,7 @@ events:
       .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
       Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
       
-      Oluşturma başlatıldı: 30.01.2026 19:47:47.
+      Oluşturma başlatıldı: 10.02.2026 18:56:00.
       1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" projesi (varsayılan hedefler).
       PrepareForBuild:
         "Debug\\" dizini oluşturuluyor.
@@ -61,7 +61,7 @@ events:
           0 Uyarı
           0 Hata
       
-      Geçen Süre 00:00:02.91
+      Geçen Süre 00:00:03.52
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -89,7 +89,7 @@ events:
       .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
       Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
       
-      Oluşturma başlatıldı: 30.01.2026 19:47:51.
+      Oluşturma başlatıldı: 10.02.2026 18:56:04.
       1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" projesi (varsayılan hedefler).
       PrepareForBuild:
         "Debug\\" dizini oluşturuluyor.
@@ -124,7 +124,7 @@ events:
           0 Uyarı
           0 Hata
       
-      Geçen Süre 00:00:02.14
+      Geçen Süre 00:00:02.00
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -143,8 +143,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-d2m2wi"
-      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-d2m2wi"
+      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-6yfptn"
+      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-6yfptn"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -157,39 +157,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-d2m2wi'
+        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-6yfptn'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_07aa1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_acba2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
         Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
         
-        Oluşturma başlatıldı: 30.01.2026 19:47:54.
-        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2m2wi\\cmTC_07aa1.vcxproj" projesi (varsayılan hedefler).
+        Oluşturma başlatıldı: 10.02.2026 18:56:07.
+        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yfptn\\cmTC_acba2.vcxproj" projesi (varsayılan hedefler).
         PrepareForBuild:
-          "cmTC_07aa1.dir\\Debug\\" dizini oluşturuluyor.
-          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2m2wi\\Debug\\" dizini oluşturuluyor.
-          "cmTC_07aa1.dir\\Debug\\cmTC_07aa1.tlog\\" dizini oluşturuluyor.
+          "cmTC_acba2.dir\\Debug\\" dizini oluşturuluyor.
+          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yfptn\\Debug\\" dizini oluşturuluyor.
+          "cmTC_acba2.dir\\Debug\\cmTC_acba2.tlog\\" dizini oluşturuluyor.
         InitializeBuildStatus:
-          "AlwaysCreate" belirtildiği için "cmTC_07aa1.dir\\Debug\\cmTC_07aa1.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "AlwaysCreate" belirtildiği için "cmTC_acba2.dir\\Debug\\cmTC_acba2.tlog\\unsuccessfulbuild" oluşturuluyor.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07aa1.dir\\Debug\\\\" /Fd"cmTC_07aa1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_acba2.dir\\Debug\\\\" /Fd"cmTC_acba2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
           CMakeCCompilerABI.c
           Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07aa1.dir\\Debug\\\\" /Fd"cmTC_07aa1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_acba2.dir\\Debug\\\\" /Fd"cmTC_acba2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2m2wi\\Debug\\cmTC_07aa1.exe" /INCREMENTAL /ILK:"cmTC_07aa1.dir\\Debug\\cmTC_07aa1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-d2m2wi/Debug/cmTC_07aa1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-d2m2wi/Debug/cmTC_07aa1.lib" /MACHINE:X64  /machine:x64 "cmTC_07aa1.dir\\Debug\\CMakeCCompilerABI.obj"
-          cmTC_07aa1.vcxproj -> C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2m2wi\\Debug\\cmTC_07aa1.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yfptn\\Debug\\cmTC_acba2.exe" /INCREMENTAL /ILK:"cmTC_acba2.dir\\Debug\\cmTC_acba2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-6yfptn/Debug/cmTC_acba2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-6yfptn/Debug/cmTC_acba2.lib" /MACHINE:X64  /machine:x64 "cmTC_acba2.dir\\Debug\\CMakeCCompilerABI.obj"
+          cmTC_acba2.vcxproj -> C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yfptn\\Debug\\cmTC_acba2.exe
         FinalizeBuildStatus:
-          "cmTC_07aa1.dir\\Debug\\cmTC_07aa1.tlog\\unsuccessfulbuild" dosyası siliniyor.
-          "cmTC_07aa1.dir\\Debug\\cmTC_07aa1.tlog\\cmTC_07aa1.lastbuildstate" öğesine erişiliyor.
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2m2wi\\cmTC_07aa1.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+          "cmTC_acba2.dir\\Debug\\cmTC_acba2.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_acba2.dir\\Debug\\cmTC_acba2.tlog\\cmTC_acba2.lastbuildstate" öğesine erişiliyor.
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yfptn\\cmTC_acba2.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
         
         Oluşturma başarılı oldu.
             0 Uyarı
             0 Hata
         
-        Geçen Süre 00:00:00.77
+        Geçen Süre 00:00:00.74
         
       exitCode: 0
   -
@@ -229,8 +229,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4lzf5f"
-      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4lzf5f"
+      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-avbq7t"
+      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-avbq7t"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -244,39 +244,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4lzf5f'
+        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-avbq7t'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_2ae3e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_ac496.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
         Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
         
-        Oluşturma başlatıldı: 30.01.2026 19:47:55.
-        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lzf5f\\cmTC_2ae3e.vcxproj" projesi (varsayılan hedefler).
+        Oluşturma başlatıldı: 10.02.2026 18:56:08.
+        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avbq7t\\cmTC_ac496.vcxproj" projesi (varsayılan hedefler).
         PrepareForBuild:
-          "cmTC_2ae3e.dir\\Debug\\" dizini oluşturuluyor.
-          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lzf5f\\Debug\\" dizini oluşturuluyor.
-          "cmTC_2ae3e.dir\\Debug\\cmTC_2ae3e.tlog\\" dizini oluşturuluyor.
+          "cmTC_ac496.dir\\Debug\\" dizini oluşturuluyor.
+          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avbq7t\\Debug\\" dizini oluşturuluyor.
+          "cmTC_ac496.dir\\Debug\\cmTC_ac496.tlog\\" dizini oluşturuluyor.
         InitializeBuildStatus:
-          "AlwaysCreate" belirtildiği için "cmTC_2ae3e.dir\\Debug\\cmTC_2ae3e.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "AlwaysCreate" belirtildiği için "cmTC_ac496.dir\\Debug\\cmTC_ac496.tlog\\unsuccessfulbuild" oluşturuluyor.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ae3e.dir\\Debug\\\\" /Fd"cmTC_2ae3e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac496.dir\\Debug\\\\" /Fd"cmTC_ac496.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
           CMakeCXXCompilerABI.cpp
           Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ae3e.dir\\Debug\\\\" /Fd"cmTC_2ae3e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac496.dir\\Debug\\\\" /Fd"cmTC_ac496.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\otomasyon\\mingw64\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lzf5f\\Debug\\cmTC_2ae3e.exe" /INCREMENTAL /ILK:"cmTC_2ae3e.dir\\Debug\\cmTC_2ae3e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4lzf5f/Debug/cmTC_2ae3e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4lzf5f/Debug/cmTC_2ae3e.lib" /MACHINE:X64  /machine:x64 "cmTC_2ae3e.dir\\Debug\\CMakeCXXCompilerABI.obj"
-          cmTC_2ae3e.vcxproj -> C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lzf5f\\Debug\\cmTC_2ae3e.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avbq7t\\Debug\\cmTC_ac496.exe" /INCREMENTAL /ILK:"cmTC_ac496.dir\\Debug\\cmTC_ac496.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-avbq7t/Debug/cmTC_ac496.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-avbq7t/Debug/cmTC_ac496.lib" /MACHINE:X64  /machine:x64 "cmTC_ac496.dir\\Debug\\CMakeCXXCompilerABI.obj"
+          cmTC_ac496.vcxproj -> C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avbq7t\\Debug\\cmTC_ac496.exe
         FinalizeBuildStatus:
-          "cmTC_2ae3e.dir\\Debug\\cmTC_2ae3e.tlog\\unsuccessfulbuild" dosyası siliniyor.
-          "cmTC_2ae3e.dir\\Debug\\cmTC_2ae3e.tlog\\cmTC_2ae3e.lastbuildstate" öğesine erişiliyor.
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lzf5f\\cmTC_2ae3e.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+          "cmTC_ac496.dir\\Debug\\cmTC_ac496.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_ac496.dir\\Debug\\cmTC_ac496.tlog\\cmTC_ac496.lastbuildstate" öğesine erişiliyor.
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-avbq7t\\cmTC_ac496.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
         
         Oluşturma başarılı oldu.
             0 Uyarı
             0 Hata
         
-        Geçen Süre 00:00:00.79
+        Geçen Süre 00:00:00.72
         
       exitCode: 0
   -
@@ -318,12 +318,12 @@ events:
       - "C:/otomasyon/mingw64/mingw64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/cpp_packages/vcpkg-master/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "C:/cpp_packages/vcpkg-master/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-qrt14z"
-      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-qrt14z"
+      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4jor82"
+      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4jor82"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -336,39 +336,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-qrt14z'
+        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-4jor82'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_281fb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_ae48b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
         Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
         
-        Oluşturma başlatıldı: 30.01.2026 19:47:56.
-        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\cmTC_281fb.vcxproj" projesi (varsayılan hedefler).
+        Oluşturma başlatıldı: 10.02.2026 18:56:09.
+        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\cmTC_ae48b.vcxproj" projesi (varsayılan hedefler).
         PrepareForBuild:
-          "cmTC_281fb.dir\\Debug\\" dizini oluşturuluyor.
-          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\Debug\\" dizini oluşturuluyor.
-          "cmTC_281fb.dir\\Debug\\cmTC_281fb.tlog\\" dizini oluşturuluyor.
+          "cmTC_ae48b.dir\\Debug\\" dizini oluşturuluyor.
+          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\Debug\\" dizini oluşturuluyor.
+          "cmTC_ae48b.dir\\Debug\\cmTC_ae48b.tlog\\" dizini oluşturuluyor.
         InitializeBuildStatus:
-          "AlwaysCreate" belirtildiği için "cmTC_281fb.dir\\Debug\\cmTC_281fb.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "AlwaysCreate" belirtildiği için "cmTC_ae48b.dir\\Debug\\cmTC_ae48b.tlog\\unsuccessfulbuild" oluşturuluyor.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_HAVE_LIBC_PTHREAD" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_281fb.dir\\Debug\\\\" /Fd"cmTC_281fb.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_HAVE_LIBC_PTHREAD" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae48b.dir\\Debug\\\\" /Fd"cmTC_ae48b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\src.c"
           x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
           src.c
           Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_HAVE_LIBC_PTHREAD" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_281fb.dir\\Debug\\\\" /Fd"cmTC_281fb.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\src.c"
-        C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\src.c(1,10): fatal error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\cmTC_281fb.vcxproj]
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\cmTC_281fb.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_HAVE_LIBC_PTHREAD" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae48b.dir\\Debug\\\\" /Fd"cmTC_ae48b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\src.c"
+        C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\src.c(1,10): fatal error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\cmTC_ae48b.vcxproj]
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\cmTC_ae48b.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
         
         Oluşturma BAŞARISIZ OLDU.
         
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\cmTC_281fb.vcxproj" (varsayılan hedef) (1) ->
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\cmTC_ae48b.vcxproj" (varsayılan hedef) (1) ->
         (ClCompile hedefi) -> 
-          C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\src.c(1,10): fatal error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrt14z\\cmTC_281fb.vcxproj]
+          C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\src.c(1,10): fatal error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jor82\\cmTC_ae48b.vcxproj]
         
             0 Uyarı
             1 Hata
         
-        Geçen Süre 00:00:00.57
+        Geçen Süre 00:00:00.52
         
       exitCode: 1
   -
@@ -381,12 +381,12 @@ events:
       - "C:/otomasyon/mingw64/mingw64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/cpp_packages/vcpkg-master/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "C:/cpp_packages/vcpkg-master/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-w012aa"
-      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-w012aa"
+      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-at1qmw"
+      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-at1qmw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -399,41 +399,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-w012aa'
+        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-at1qmw'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_9f0f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f1b00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
         Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
         
-        Oluşturma başlatıldı: 30.01.2026 19:47:57.
-        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\cmTC_9f0f8.vcxproj" projesi (varsayılan hedefler).
+        Oluşturma başlatıldı: 10.02.2026 18:56:10.
+        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\cmTC_f1b00.vcxproj" projesi (varsayılan hedefler).
         PrepareForBuild:
-          "cmTC_9f0f8.dir\\Debug\\" dizini oluşturuluyor.
-          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\Debug\\" dizini oluşturuluyor.
-          "cmTC_9f0f8.dir\\Debug\\cmTC_9f0f8.tlog\\" dizini oluşturuluyor.
+          "cmTC_f1b00.dir\\Debug\\" dizini oluşturuluyor.
+          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\Debug\\" dizini oluşturuluyor.
+          "cmTC_f1b00.dir\\Debug\\cmTC_f1b00.tlog\\" dizini oluşturuluyor.
         InitializeBuildStatus:
-          "AlwaysCreate" belirtildiği için "cmTC_9f0f8.dir\\Debug\\cmTC_9f0f8.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "AlwaysCreate" belirtildiği için "cmTC_f1b00.dir\\Debug\\cmTC_f1b00.tlog\\unsuccessfulbuild" oluşturuluyor.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f0f8.dir\\Debug\\\\" /Fd"cmTC_9f0f8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1b00.dir\\Debug\\\\" /Fd"cmTC_f1b00.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\CheckFunctionExists.c"
           x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
           CheckFunctionExists.c
           Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f0f8.dir\\Debug\\\\" /Fd"cmTC_9f0f8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1b00.dir\\Debug\\\\" /Fd"cmTC_f1b00.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\Debug\\cmTC_9f0f8.exe" /INCREMENTAL /ILK:"cmTC_9f0f8.dir\\Debug\\cmTC_9f0f8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-w012aa/Debug/cmTC_9f0f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-w012aa/Debug/cmTC_9f0f8.lib" /MACHINE:X64  /machine:x64 cmTC_9f0f8.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\cmTC_9f0f8.vcxproj]
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\cmTC_9f0f8.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\Debug\\cmTC_f1b00.exe" /INCREMENTAL /ILK:"cmTC_f1b00.dir\\Debug\\cmTC_f1b00.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-at1qmw/Debug/cmTC_f1b00.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-at1qmw/Debug/cmTC_f1b00.lib" /MACHINE:X64  /machine:x64 cmTC_f1b00.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\cmTC_f1b00.vcxproj]
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\cmTC_f1b00.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
         
         Oluşturma BAŞARISIZ OLDU.
         
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\cmTC_9f0f8.vcxproj" (varsayılan hedef) (1) ->
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\cmTC_f1b00.vcxproj" (varsayılan hedef) (1) ->
         (Link hedefi) -> 
-          LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w012aa\\cmTC_9f0f8.vcxproj]
+          LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at1qmw\\cmTC_f1b00.vcxproj]
         
             0 Uyarı
             1 Hata
         
-        Geçen Süre 00:00:00.66
+        Geçen Süre 00:00:00.60
         
       exitCode: 1
   -
@@ -446,12 +446,12 @@ events:
       - "C:/otomasyon/mingw64/mingw64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/cpp_packages/vcpkg-master/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "C:/cpp_packages/vcpkg-master/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-fndazi"
-      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-fndazi"
+      source: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-blmlcq"
+      binary: "C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-blmlcq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -464,36 +464,36 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-fndazi'
+        Change Dir: 'C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-blmlcq'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_bd4f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_4c15b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
         Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
         
-        Oluşturma başlatıldı: 30.01.2026 19:47:58.
-        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\cmTC_bd4f8.vcxproj" projesi (varsayılan hedefler).
+        Oluşturma başlatıldı: 10.02.2026 18:56:11.
+        1 düğümünde "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\cmTC_4c15b.vcxproj" projesi (varsayılan hedefler).
         PrepareForBuild:
-          "cmTC_bd4f8.dir\\Debug\\" dizini oluşturuluyor.
-          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\Debug\\" dizini oluşturuluyor.
-          "cmTC_bd4f8.dir\\Debug\\cmTC_bd4f8.tlog\\" dizini oluşturuluyor.
+          "cmTC_4c15b.dir\\Debug\\" dizini oluşturuluyor.
+          "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\Debug\\" dizini oluşturuluyor.
+          "cmTC_4c15b.dir\\Debug\\cmTC_4c15b.tlog\\" dizini oluşturuluyor.
         InitializeBuildStatus:
-          "AlwaysCreate" belirtildiği için "cmTC_bd4f8.dir\\Debug\\cmTC_bd4f8.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "AlwaysCreate" belirtildiği için "cmTC_4c15b.dir\\Debug\\cmTC_4c15b.tlog\\unsuccessfulbuild" oluşturuluyor.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd4f8.dir\\Debug\\\\" /Fd"cmTC_bd4f8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c15b.dir\\Debug\\\\" /Fd"cmTC_4c15b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\CheckFunctionExists.c"
           x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
           CheckFunctionExists.c
           Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd4f8.dir\\Debug\\\\" /Fd"cmTC_bd4f8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c15b.dir\\Debug\\\\" /Fd"cmTC_4c15b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\Debug\\cmTC_bd4f8.exe" /INCREMENTAL /ILK:"cmTC_bd4f8.dir\\Debug\\cmTC_bd4f8.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-fndazi/Debug/cmTC_bd4f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-fndazi/Debug/cmTC_bd4f8.lib" /MACHINE:X64  /machine:x64 cmTC_bd4f8.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\cmTC_bd4f8.vcxproj]
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\cmTC_bd4f8.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\Debug\\cmTC_4c15b.exe" /INCREMENTAL /ILK:"cmTC_4c15b.dir\\Debug\\cmTC_4c15b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-blmlcq/Debug/cmTC_4c15b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cProjects/borsa_fatihi/build/CMakeFiles/CMakeScratch/TryCompile-blmlcq/Debug/cmTC_4c15b.lib" /MACHINE:X64  /machine:x64 cmTC_4c15b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\cmTC_4c15b.vcxproj]
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\cmTC_4c15b.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
         
         Oluşturma BAŞARISIZ OLDU.
         
-        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\cmTC_bd4f8.vcxproj" (varsayılan hedef) (1) ->
+        "C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\cmTC_4c15b.vcxproj" (varsayılan hedef) (1) ->
         (Link hedefi) -> 
-          LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fndazi\\cmTC_bd4f8.vcxproj]
+          LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\cProjects\\borsa_fatihi\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blmlcq\\cmTC_4c15b.vcxproj]
         
             0 Uyarı
             1 Hata

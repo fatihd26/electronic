@@ -7,6 +7,15 @@
     <ClCompile Include="C:\cProjects\borsa_fatihi\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\src\Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\src\Resistor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\src\Circuit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

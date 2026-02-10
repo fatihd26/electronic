@@ -1,6 +1,7 @@
 #ifndef ELEMENT_H
 #define ELEMENT_H
 
+#include <vector>
 #include <array>
 
 typedef enum {
@@ -16,11 +17,14 @@ typedef enum {
 
 class Element{
     public:
-
+        static double base_temperature;
+        static double temperature;
         static size_t base_node_id;
         virtual void stamp();
         virtual size_t getNodeID(int node_index);
         virtual int getComponentType();
+        virtual void setParameters(std::vector<double>params);
+        virtual void showParameters();
 };
 
 

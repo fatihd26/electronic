@@ -21,6 +21,9 @@ find_package(Eigen3 CONFIG REQUIRED)
 
 add_executable(borsa_fatihi 
 main.cpp
+src/Element.cpp
+src/Resistor.cpp
+src/Circuit.cpp
 
 
 )

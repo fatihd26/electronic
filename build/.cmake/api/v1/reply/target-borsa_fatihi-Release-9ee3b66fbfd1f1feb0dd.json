@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MinSizeRel/borsa_fatihi.exe"
+			"path" : "Release/borsa_fatihi.exe"
 		},
 		{
-			"path" : "MinSizeRel/borsa_fatihi.pdb"
+			"path" : "Release/borsa_fatihi.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -48,19 +48,19 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 29,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 31,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 36,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
@@ -110,7 +110,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 35,
+				"line" : 38,
 				"parent" : 0
 			}
 		]
@@ -121,7 +121,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				}
 			],
 			"defines" : 
@@ -155,7 +155,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/cProjects/borsa_fatihi/build/borsa_fatihi_autogen/include_MinSizeRel"
+					"path" : "C:/cProjects/borsa_fatihi/build/borsa_fatihi_autogen/include_Release"
 				},
 				{
 					"backtrace" : 3,
@@ -216,7 +216,10 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -232,7 +235,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -295,7 +298,10 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -305,13 +311,31 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/borsa_fatihi_autogen/mocs_compilation_MinSizeRel.cpp",
+			"path" : "build/borsa_fatihi_autogen/mocs_compilation_Release.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/Resistor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/Circuit.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

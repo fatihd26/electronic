@@ -101,45 +101,16 @@
 		"C:/cpp_packages/vcpkg-master/installed/x64-windows/share/glad/gladTargets-release.cmake",
 		"C:/otomasyon/mingw64/mingw64/share/cmake-3.29/Modules/FindOpenGL.cmake",
 		"C:/otomasyon/mingw64/mingw64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/otomasyon/mingw64/mingw64/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		"C:/otomasyon/mingw64/mingw64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/cpp_packages/vcpkg-master/installed/x64-windows/share/eigen3/Eigen3ConfigVersion.cmake",
+		"C:/cpp_packages/vcpkg-master/installed/x64-windows/share/eigen3/Eigen3Config.cmake",
+		"C:/cpp_packages/vcpkg-master/installed/x64-windows/share/eigen3/Eigen3Targets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/cProjects/borsa_fatihi",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : 
-	[
-		[
-			"C:/cProjects/borsa_fatihi/src/circuit/Circuit.h",
-			"MU",
-			"CDKI5LLNEU/moc_Circuit.cpp",
-			null
-		],
-		[
-			"C:/cProjects/borsa_fatihi/src/entity/Entity.h",
-			"MU",
-			"GH2DYT6SNJ/moc_Entity.cpp",
-			null
-		],
-		[
-			"C:/cProjects/borsa_fatihi/src/entity/Node.h",
-			"MU",
-			"GH2DYT6SNJ/moc_Node.cpp",
-			null
-		],
-		[
-			"C:/cProjects/borsa_fatihi/src/system/PositionSystem.h",
-			"MU",
-			"IMGALCVROS/moc_PositionSystem.cpp",
-			null
-		],
-		[
-			"C:/cProjects/borsa_fatihi/src/system/ResistorSystem.h",
-			"MU",
-			"IMGALCVROS/moc_ResistorSystem.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/cProjects/borsa_fatihi/build/borsa_fatihi_autogen/include",
 	"INCLUDE_DIR_Debug" : "C:/cProjects/borsa_fatihi/build/borsa_fatihi_autogen/include_Debug",
@@ -208,6 +179,7 @@
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtCore",
 		"C:/Users/fatih/anaconda3/Library/mkspecs/win32-msvc",
+		"C:/cpp_packages/vcpkg-master/installed/x64-windows/include/eigen3",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"
 	],
 	"MOC_INCLUDES_MinSizeRel" : 
@@ -219,6 +191,7 @@
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtCore",
 		"C:/Users/fatih/anaconda3/Library/mkspecs/win32-msvc",
+		"C:/cpp_packages/vcpkg-master/installed/x64-windows/include/eigen3",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"
 	],
 	"MOC_INCLUDES_RelWithDebInfo" : 
@@ -230,6 +203,7 @@
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtCore",
 		"C:/Users/fatih/anaconda3/Library/mkspecs/win32-msvc",
+		"C:/cpp_packages/vcpkg-master/installed/x64-windows/include/eigen3",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"
 	],
 	"MOC_INCLUDES_Release" : 
@@ -241,6 +215,7 @@
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtANGLE",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtCore",
 		"C:/Users/fatih/anaconda3/Library/mkspecs/win32-msvc",
+		"C:/cpp_packages/vcpkg-master/installed/x64-windows/include/eigen3",
 		"C:/Users/fatih/anaconda3/Library/include/qt/QtNetwork"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
@@ -268,12 +243,7 @@
 	"SETTINGS_FILE_Release" : "C:/cProjects/borsa_fatihi/build/CMakeFiles/borsa_fatihi_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
-		[ "C:/cProjects/borsa_fatihi/main.cpp", "MU", null ],
-		[ "C:/cProjects/borsa_fatihi/src/circuit/Circuit.cpp", "MU", null ],
-		[ "C:/cProjects/borsa_fatihi/src/entity/Entity.cpp", "MU", null ],
-		[ "C:/cProjects/borsa_fatihi/src/entity/Node.cpp", "MU", null ],
-		[ "C:/cProjects/borsa_fatihi/src/system/PositionSystem.cpp", "MU", null ],
-		[ "C:/cProjects/borsa_fatihi/src/system/ResistorSystem.cpp", "MU", null ]
+		[ "C:/cProjects/borsa_fatihi/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

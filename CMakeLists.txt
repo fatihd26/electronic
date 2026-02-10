@@ -17,17 +17,11 @@ find_package(Qt5 REQUIRED COMPONENTS Network)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glad CONFIG REQUIRED)
 find_package(OpenGL REQUIRED)
+find_package(Eigen3 CONFIG REQUIRED)
 
 add_executable(borsa_fatihi 
 main.cpp
 
-src/entity/Entity.cpp
-src/entity/Node.cpp
-
-src/system/PositionSystem.cpp
-src/system/ResistorSystem.cpp
-
-src/circuit/Circuit.cpp
 
 )
 
@@ -38,4 +32,5 @@ target_link_libraries(borsa_fatihi
     PRIVATE Qt5::Widgets
 )
 
+target_link_libraries(borsa_fatihi PRIVATE Eigen3::Eigen)
 target_link_libraries(borsa_fatihi PRIVATE Qt5::Network)

@@ -3,6 +3,10 @@
 
 #include <vector>
 #include <array>
+#include <set>
+#include <unordered_map>
+#include <Eigen/Dense>
+#include <iostream>
 
 typedef enum {
     RESISTOR = 0,
@@ -17,14 +21,23 @@ typedef enum {
 
 class Element{
     public:
+
+        virtual ~Element();
+
         static double base_temperature;
         static double temperature;
         static size_t base_node_id;
-        virtual void stamp();
+
+        static std::unordered_map<size_t,size_t> matrix_index;
+        
+
+        virtual void stamp(Eigen::MatrixXd& G);
+
         virtual size_t getNodeID(int node_index);
-        virtual int getComponentType();
+        virtual int  getComponentType();
         virtual void setParameters(std::vector<double>params);
         virtual void showParameters();
+        virtual void setNodeID(int node_id_index, size_t node_id_);
 };
 
 

@@ -10,12 +10,16 @@ class Resistor:public Element{
         
         
     public:
+
+
         Resistor();
-        void stamp() override;
+        ~Resistor() override;
+        void stamp(Eigen::MatrixXd& G) override;
         size_t getNodeID(int node_index) override;
         int getComponentType() override;
         void setParameters(std::vector<double>params) override;
         void showParameters() override;
+        void setNodeID(int node_id_index, size_t node_id_);
 };
 
 #endif

@@ -1,19 +1,39 @@
 #include "Resistor.h"
 
+Resistor::~Resistor(){
+    
+}
+
 Resistor::Resistor()
 {   
     resistance = 1000;
     node_ids.fill(0);
     node_ids[0] = base_node_id;
+
     base_node_id++;
     node_ids[1] = base_node_id;
     base_node_id++;
 
 }
 
-void Resistor::stamp()
+void Resistor::stamp(Eigen::MatrixXd& G)
 {
     resistance = base_resistance * (1+ 0.0039* (temperature - base_temperature));
+    
+
+    size_t i = matrix_index[node_ids[0]];
+    size_t j = matrix_index[node_ids[1]];
+
+    double G_resistor = 1.0/resistance;
+
+    
+    
+    G(i,i) += G_resistor;
+    G(j,j) += G_resistor;
+    G(i,j) -= G_resistor;
+    G(j,i) -= G_resistor;
+
+    
 }
 
 size_t Resistor::getNodeID(int node_index)
@@ -38,6 +58,11 @@ void Resistor::setParameters(std::vector<double> params)
 
 void Resistor::showParameters()
 {
-    printf("Temperature:%lf\nResistance:%lf\nNode positive id:%zu\nNode negative id:%zu\n ",
+    printf("Temperature:%lf\nResistance:%lf\nNode positive id:%zu\nNode negative id:%zu\n\n",
         temperature,resistance,getNodeID(0),getNodeID(1));
+}
+
+void Resistor::setNodeID(int node_id_index, size_t node_id_)
+{
+    node_ids[node_id_index] = node_id_;
 }

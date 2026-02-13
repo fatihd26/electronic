@@ -1,44 +1,40 @@
 
 
-#include <stdio.h>
 #include <iostream>
-
 #include "src/Circuit.h"
 #include "src/Resistor.h"
 
 int main(){
 
-    Circuit c;
-    Element * resistor1 = new Resistor();
-    Element * resistor2 = new Resistor();
-
-    resistor1->setParameters({1000});
-    resistor2->setParameters({2000});
-
-    c.elements.push_back(resistor1);
-    c.elements.push_back(resistor2);
-
-    c.setTemperature(30);
-    resistor1->showParameters();
-
-    c.setTemperature(40);
-    resistor1->showParameters();
-    
-    c.setTemperature(30);
-
-
-    resistor1->showParameters();
+    Circuit c = {};
     c.setTemperature(25);
-    c.setTemperature(25);
-    resistor1->showParameters();
 
-    
+    Element * element1 = new Resistor();
+    element1->setParameters({1000});
 
-    
-    
-    
+    Element * element2 = new Resistor();
+    element2->setParameters({2000});
 
+    Element * element3 = new Resistor();
+    element3->setParameters({3000});
+
+    Element * element4 = new Resistor();
+    element4->setParameters({4000});
     
+    c.elements.push_back(element1);
+    c.elements.push_back(element2);
+    c.elements.push_back(element3);
+    c.elements.push_back(element4);
+
+    c.connectNodes(*element1,0,*element2,0);
+    c.connectNodes(*element1,1,*element2,1);
+    c.connectNodes(*element3,0,*element2,0);
+    c.connectNodes(*element3,1,*element4,0);
+    c.connectNodes(*element4,1,*element2,1);
+
+    c.buildCircuit();
+
+    std::cout << c.circuit_matrix << std::endl;
 
 
     return 0;

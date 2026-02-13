@@ -37,6 +37,6 @@ void Element::setNodeID(int node_id_index, size_t node_id_)
 
 
 
-void Element::stamp(Eigen::MatrixXd& G){
+void Element::stamp(Eigen::MatrixXd& G, size_t ground_node_id){
     
 }

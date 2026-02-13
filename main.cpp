@@ -20,7 +20,7 @@ int main(){
 
     Element * element4 = new Resistor();
     element4->setParameters({4000});
-    
+
     c.elements.push_back(element1);
     c.elements.push_back(element2);
     c.elements.push_back(element3);
@@ -32,9 +32,12 @@ int main(){
     c.connectNodes(*element3,1,*element4,0);
     c.connectNodes(*element4,1,*element2,1);
 
-    c.buildCircuit();
+    c.setGround(*element1,1);
 
-    std::cout << c.circuit_matrix << std::endl;
+    c.buildCircuit();
+    c.solveEqualResistance(element1->getNodeID(0));
+
+    //std::cout << c.circuit_matrix << std::endl;
 
 
     return 0;

@@ -4,6 +4,7 @@
 
 Circuit::Circuit()
 {   
+    row_col = 1;
     node_ids = {};
     temperature_ = 25;
     Element::base_temperature = temperature_;
@@ -24,11 +25,12 @@ double Circuit::getTemperature()
 
 void Circuit::buildCircuit(){ 
     std::set<size_t> unique_nodes(node_ids.begin(), node_ids.end());
+    unique_nodes.erase(ground_node_id);
 
     size_t idx=0;
 
 
-    size_t row_col = unique_nodes.size();
+    row_col = unique_nodes.size();
     
     circuit_matrix.resize(row_col,row_col);
     circuit_matrix.setZero(row_col,row_col);
@@ -40,13 +42,27 @@ void Circuit::buildCircuit(){
     for (Element* element : elements){
         
         element->showParameters();
-        element->stamp(circuit_matrix);
+        element->stamp(circuit_matrix,ground_node_id);
     }
 }
 
 void Circuit::setGround(Element &element, int node_id_index)
 {
+    ground_node_id = element.getNodeID(node_id_index);
     
+}
+
+void Circuit::solveEqualResistance(size_t node_id)
+{
+    Eigen::VectorXd I(row_col);
+    I.setZero();
+    size_t n_pos = Element::matrix_index[node_id];
+    I(n_pos) = 1.0;
+    Eigen::VectorXd V = circuit_matrix.colPivHouseholderQr().solve(I);
+
+    std::cout <<" R Equal:" <<V(n_pos) << std::endl;
+
+
 }
 
 void Circuit::connectNodes(Element &element1, int element1_node_id_index, Element &element2, int element2_node_id_index)

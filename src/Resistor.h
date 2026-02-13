@@ -14,7 +14,7 @@ class Resistor:public Element{
 
         Resistor();
         ~Resistor() override;
-        void stamp(Eigen::MatrixXd& G) override;
+        void stamp(Eigen::MatrixXd& G, size_t ground_node_id) override;
         size_t getNodeID(int node_index) override;
         int getComponentType() override;
         void setParameters(std::vector<double>params) override;

@@ -9,6 +9,8 @@
 
 class Circuit{
     private:
+        size_t row_col;
+        size_t ground_node_id;
         size_t node_id1;
         size_t node_id2;
         std::vector<size_t> node_ids;
@@ -24,6 +26,7 @@ class Circuit{
         void buildCircuit();
         void connectNodes(Element& element1, int element1_node_id_index, Element& element2, int element2_node_id_index);
         void setGround(Element& element, int node_id_index);
+        void solveEqualResistance(size_t node_id);
 
 
 };

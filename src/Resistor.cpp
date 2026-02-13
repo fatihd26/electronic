@@ -16,25 +16,43 @@ Resistor::Resistor()
 
 }
 
-void Resistor::stamp(Eigen::MatrixXd& G)
+void Resistor::stamp(Eigen::MatrixXd& G, size_t ground_node_id)
 {
-    resistance = base_resistance * (1+ 0.0039* (temperature - base_temperature));
-    
+    resistance = base_resistance * (1+ 0.0039*(temperature - base_temperature));
 
+    double g = 1.0 / resistance;
+
+    bool i_is_ground = (node_ids[0] == ground_node_id);
+    bool j_is_ground = (node_ids[1] == ground_node_id);
+
+    // ikisi de ground → hiçbir şey yapma
+    if (i_is_ground && j_is_ground)
+        return;
+
+    // sadece j ground
+    if (j_is_ground) {
+        size_t i = matrix_index[node_ids[0]];
+        G(i,i) += g;
+        return;
+    }
+
+    // sadece i ground
+    if (i_is_ground) {
+        size_t j = matrix_index[node_ids[1]];
+        G(j,j) += g;
+        return;
+    }
+
+    // normal resistor
     size_t i = matrix_index[node_ids[0]];
     size_t j = matrix_index[node_ids[1]];
 
-    double G_resistor = 1.0/resistance;
-
-    
-    
-    G(i,i) += G_resistor;
-    G(j,j) += G_resistor;
-    G(i,j) -= G_resistor;
-    G(j,i) -= G_resistor;
-
-    
+    G(i,i) += g;
+    G(j,j) += g;
+    G(i,j) -= g;
+    G(j,i) -= g;
 }
+
 
 size_t Resistor::getNodeID(int node_index)
 {

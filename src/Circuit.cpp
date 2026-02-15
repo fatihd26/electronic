@@ -35,6 +35,9 @@ void Circuit::buildCircuit(){
     circuit_matrix.resize(row_col,row_col);
     circuit_matrix.setZero(row_col,row_col);
 
+    I_matrix.resize(row_col,1);
+    I_matrix.setZero(row_col,1);
+
     for (size_t i : unique_nodes){
         Element::matrix_index[i] = idx++;
     }
@@ -42,7 +45,7 @@ void Circuit::buildCircuit(){
     for (Element* element : elements){
         
         element->showParameters();
-        element->stamp(circuit_matrix,ground_node_id);
+        element->stamp(circuit_matrix,I_matrix,ground_node_id);
     }
 }
 
@@ -63,6 +66,12 @@ void Circuit::solveEqualResistance(size_t node_id)
     std::cout <<" R Equal:" <<V(n_pos) << std::endl;
 
 
+}
+
+void Circuit::solveVoltages()
+{
+    Eigen::VectorXd V = circuit_matrix.colPivHouseholderQr().solve(I_matrix);
+    std::cout<<V<<std::endl;
 }
 
 void Circuit::connectNodes(Element &element1, int element1_node_id_index, Element &element2, int element2_node_id_index)

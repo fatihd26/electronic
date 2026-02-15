@@ -16,6 +16,9 @@
     <ClCompile Include="C:\cProjects\borsa_fatihi\src\Circuit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\cProjects\borsa_fatihi\src\VSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

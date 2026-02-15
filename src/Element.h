@@ -31,7 +31,7 @@ class Element{
         static std::unordered_map<size_t,size_t> matrix_index;
         
 
-        virtual void stamp(Eigen::MatrixXd& G, size_t ground_node_id);
+        virtual void stamp(Eigen::MatrixXd& G,Eigen::MatrixXd& I, size_t ground_node_id);
 
         virtual size_t getNodeID(int node_index);
         virtual int  getComponentType();

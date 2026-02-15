@@ -455,6 +455,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\cProjects\borsa_fatihi\src\Element.cpp" />
     <ClCompile Include="C:\cProjects\borsa_fatihi\src\Resistor.cpp" />
     <ClCompile Include="C:\cProjects\borsa_fatihi\src\Circuit.cpp" />
+    <ClCompile Include="C:\cProjects\borsa_fatihi\src\VSource.cpp" />
     <ClCompile Include="C:\cProjects\borsa_fatihi\build\borsa_fatihi_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>

@@ -129,6 +129,12 @@
 			"MU",
 			"UVLADIE3JM/moc_Resistor.cpp",
 			null
+		],
+		[
+			"C:/cProjects/borsa_fatihi/src/VSource.h",
+			"MU",
+			"UVLADIE3JM/moc_VSource.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -266,7 +272,8 @@
 		[ "C:/cProjects/borsa_fatihi/main.cpp", "MU", null ],
 		[ "C:/cProjects/borsa_fatihi/src/Circuit.cpp", "MU", null ],
 		[ "C:/cProjects/borsa_fatihi/src/Element.cpp", "MU", null ],
-		[ "C:/cProjects/borsa_fatihi/src/Resistor.cpp", "MU", null ]
+		[ "C:/cProjects/borsa_fatihi/src/Resistor.cpp", "MU", null ],
+		[ "C:/cProjects/borsa_fatihi/src/VSource.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

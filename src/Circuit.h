@@ -17,6 +17,7 @@ class Circuit{
         double temperature_;
     public:
         Eigen::MatrixXd circuit_matrix;
+        Eigen::MatrixXd I_matrix;
         std::vector<Element*>  elements;
 
         Circuit();
@@ -26,7 +27,8 @@ class Circuit{
         void buildCircuit();
         void connectNodes(Element& element1, int element1_node_id_index, Element& element2, int element2_node_id_index);
         void setGround(Element& element, int node_id_index);
-        void solveEqualResistance(size_t node_id);
+        void solveEqualResistance(size_t node_id); //this node id positive probe node id
+        void solveVoltages();
 
 
 };

@@ -24,6 +24,9 @@ main.cpp
 src/Element.cpp
 src/Resistor.cpp
 src/Circuit.cpp
+src/VSource.cpp
+
+
 
 
 )

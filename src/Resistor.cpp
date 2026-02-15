@@ -16,7 +16,7 @@ Resistor::Resistor()
 
 }
 
-void Resistor::stamp(Eigen::MatrixXd& G, size_t ground_node_id)
+void Resistor::stamp(Eigen::MatrixXd& G,Eigen::MatrixXd& I, size_t ground_node_id)
 {
     resistance = base_resistance * (1+ 0.0039*(temperature - base_temperature));
 

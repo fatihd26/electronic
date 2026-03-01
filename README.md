@@ -19,29 +19,54 @@ Bu proje, bir elektrik devresindeki direnç elemanlarını tanımlayarak, bağl�
 Projede `main.cpp` dosyasında örnek bir devre oluşturulmuştur:
 
 ```cpp
-Circuit c = {};
-c.setTemperature(25);
 
-Element* r1 = new Resistor();
-r1->setParameters({1000}); // 1kΩ
+#include "src/Circuit.h"
+#include "src/Resistor.h"
+#include "src/VSource.h"
 
-Element* r2 = new Resistor();
-r2->setParameters({2000}); // 2kΩ
 
-// Elemanları devreye ekleme
-c.elements.push_back(r1);
-c.elements.push_back(r2);
+void test(){
+    
+    Circuit c = {};
+    c.setTemperature(25);
 
-// Bağlantıları yapma
-c.connectNodes(*r1,0,*r2,0);
-c.connectNodes(*r1,1,*r2,1);
+    Element * element1 = new Resistor();
+    element1->setParameters({1000});
 
-// Toprak düğümü belirleme
-c.setGround(*r1,1);
+    Element * element2 = new Resistor();
+    element2->setParameters({2000});
 
-// Devreyi inşa etme ve eşdeğer direnci çözme
-c.buildCircuit();
-c.solveEqualResistance(r1->getNodeID(0));
+    Element * element3 = new Resistor();
+    element3->setParameters({3000});
+
+    Element * element4 = new Resistor();
+    element4->setParameters({4000});
+
+    c.elements.push_back(element1);
+    c.elements.push_back(element2);
+    c.elements.push_back(element3);
+    c.elements.push_back(element4);
+
+    c.connectNodes(*element1,0,*element2,0);
+    c.connectNodes(*element1,1,*element2,1);
+    c.connectNodes(*element3,0,*element2,0);
+    c.connectNodes(*element3,1,*element4,0);
+    c.connectNodes(*element4,1,*element2,1);
+
+    c.setGround(*element1,1);
+
+    c.buildCircuit();    
+    c.solveEqualResistance(element1->getNodeID(0));
+
+}
+
+
+int main()
+{   
+    test();
+
+    return 0;
+}
 ```
 ## Çıktı
 ```bash
